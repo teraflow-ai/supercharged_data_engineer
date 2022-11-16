@@ -35,7 +35,7 @@ __*CryptoDudez*__ would like the cryptocurrency data, as well as any additional 
 
 Upon landing in the data lake, an automated process should be kicked off which catalogs the raw data's location, and infers the column names and datatypes contained therein. 
 
-Once the structure and location of the data has been established and persisted in a metastore, a following process needs to run various data validation checks (null checks, non-conformant schema checks, unprocessable rows, corrupt data) and lastly, the data needs to be converted to parquet format. 
+Once the structure and location of the data has been established and persisted in a metastore, a process needs to run various data validation checks (null checks, non-conformant schema checks, unprocessable rows, corrupt data) and lastly, the data needs to be converted to parquet format. 
 
 Any rows or files that were not processable should be stored in a seperate location for later review.
 
